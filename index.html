@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav div {
+            position: relative;
+            margin-left:  30px;
+            margin-right:  30px;
+            margin-top: 20px;
+        }
+
+        #link-container {
+            margin-left: 50px;
+            position: absolute;
+            top: 3px;
+        }
+
+        #LogReg-container {
+            float: right;
+        }
+
+        #LogReg-container button {
+            border-style: solid;
+            border-width: 1px;
+            background-color: transparent;
+            /* border: 1px solid transparent; */
+            width: 90px;
+            height: 35px;
+            border-radius: 12px;
+            cursor: pointer;
+        }
+
+        #login {
+            border-color: transparent;
+        }
+
+        a {
+            margin: 0 30px;
+        }
+
+        h1 {
+            font-size: 80px;
+            margin-bottom: 40px;
+            
+        }
+
+        p {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+
+        #learn-more {
+            background-color: black;
+            border: none;
+            width: 160px;
+            height: 60px;
+            border-radius: 12px;
+            color: white;
+            font-size: 20px;
+            margin-bottom: 50px;
+        }
+
+        #footer-images img {
+            margin: 0 10px;
+        }
+
+        #container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        #text-section {
+            display: inline-block;
+            text-align: left;
+            margin-top: 50px;
+            margin-right: 200px;
+        }
+
+        #image-section {
+            display: inline-block;
+            
+            
+        }
+
+        .make-text-big {
+            font-size: 100px;
+        }
+
+        #image-section img {
+            width: 400px;
+        }
+
+        .big-div {
+            height: 500px;
+        }
+
+        nav {
+            /* position: fixed; */
+            width: 100%;
+            top: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <img src="logo.svg" alt="Snap Logo" >
+            <span id="link-container">
+                <a target="_" href="./features.html">Features</a>
+                <img id="icon" src="./images/icon-arrow-down.svg" alt="">
+                <a>Company</a>
+                <a>Careers</a>
+                <a>About</a>
+            </span>
+            <span id="LogReg-container">
+                <button id="login">Login</button>
+                <button>Register</button>
+            </span>
+        </div>
+    </nav>
+    <main>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" focusable="false">
+            <path d="M14 2A8 8 0 0 0 7.4 14.5L2.4 19.4a1.5 1.5 0 0 0 2.1 2.1L9.5 16.6A8 8 0 1 0 14 2Zm0 14.1A6.1 6.1 0 1 1 20.1 10 6.1 6.1 0 0 1 14 16.1Z"></path>
+        </svg> -->
+        <div id="container">
+            <div id="text-section">
+                <h1>Make<br> remote work</h1>
+                <p>Get your team in sync no matter your location.<br>
+                    Streamline processes, create team rituals and<br> watch productivity soar.
+                </p>
+                <button id="learn-more">Learn more</button>
+                <div id="footer-images">
+                    <img src="images/client-databiz.svg" alt="databiz">
+                    <img src="images/client-audiophile.svg" alt="audiophile">
+                    <img src="images/client-meet.svg" alt="meet">
+                    <img src="images/client-maker.svg" alt="maker">
+                </div>
+            </div>
+            <div id="image-section">
+                <img src="image-hero-desktop.png" alt="Hero Section">
+            </div>
+        </div>
+        <!-- <div class="big-div"></div>
+        <div class="big-div"></div> -->
+    </main>
+</body>
+</html>
